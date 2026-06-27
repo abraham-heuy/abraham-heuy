@@ -1,0 +1,95 @@
+<svg width="700" height="310" viewBox="0 0 700 310" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="30%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="70%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="botline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="50%" stop-color="#5b21b6"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="boxgrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="310" fill="#0a0010"/>
+  
+  <!-- Outer border -->
+  <rect x="1" y="1" width="698" height="308" fill="none" stroke="#5b21b6" stroke-width="1.5"/>
+  
+  <!-- Top accent line -->
+  <rect x="10" y="1" width="680" height="2" fill="url(#topline)"/>
+  
+  <!-- Corner accents -->
+  <rect x="0" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="0" y="302" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="302" width="8" height="8" fill="#7c3aed"/>
+  
+  <!-- Section label tab -->
+  <rect x="20" y="-1" width="185" height="18" fill="#7c3aed"/>
+  <text x="112" y="12" font-family="monospace" font-size="10" fill="#f0abfc" text-anchor="middle" letter-spacing="2">░ LEARNING PATH</text>
+
+  <!-- TIMELINE -->
+  <!-- Phase boxes -->
+  <!-- Box 1: Full-Stack -->
+  <rect x="30" y="40" width="120" height="28" rx="4" fill="url(#boxgrad)" stroke="#a855f7" stroke-width="1"/>
+  <text x="90" y="59" font-family="'Courier New', Courier, monospace" font-size="11" fill="#f0abfc" text-anchor="middle" font-weight="bold">[Full‑Stack]</text>
+  
+  <!-- Arrow 1 -->
+  <line x1="155" y1="54" x2="185" y2="54" stroke="#06b6d4" stroke-width="2"/>
+  <polygon points="185,49 195,54 185,59" fill="#06b6d4"/>
+
+  <!-- Box 2: AI / ML -->
+  <rect x="200" y="40" width="100" height="28" rx="4" fill="url(#boxgrad)" stroke="#a855f7" stroke-width="1"/>
+  <text x="250" y="59" font-family="'Courier New', Courier, monospace" font-size="11" fill="#f0abfc" text-anchor="middle" font-weight="bold">[AI / ML]</text>
+
+  <!-- Arrow 2 -->
+  <line x1="305" y1="54" x2="335" y2="54" stroke="#06b6d4" stroke-width="2"/>
+  <polygon points="335,49 345,54 335,59" fill="#06b6d4"/>
+
+  <!-- Box 3: Dist. Sys + Security -->
+  <rect x="350" y="40" width="150" height="28" rx="4" fill="url(#boxgrad)" stroke="#a855f7" stroke-width="1"/>
+  <text x="425" y="59" font-family="'Courier New', Courier, monospace" font-size="11" fill="#f0abfc" text-anchor="middle" font-weight="bold">[Dist. Sys + Security]</text>
+
+  <!-- Arrow 3 -->
+  <line x1="505" y1="54" x2="535" y2="54" stroke="#06b6d4" stroke-width="2"/>
+  <polygon points="535,49 545,54 535,59" fill="#06b6d4"/>
+
+  <!-- Box 4: Rust + Systems -->
+  <rect x="550" y="40" width="120" height="28" rx="4" fill="url(#boxgrad)" stroke="#a855f7" stroke-width="1"/>
+  <text x="610" y="59" font-family="'Courier New', Courier, monospace" font-size="11" fill="#f0abfc" text-anchor="middle" font-weight="bold">[Rust + Systems]</text>
+
+  <!-- Year labels under boxes -->
+  <text x="90" y="85" font-family="'Courier New', Courier, monospace" font-size="9" fill="#5b21b6" text-anchor="middle">2022–2024</text>
+  <text x="250" y="85" font-family="'Courier New', Courier, monospace" font-size="9" fill="#5b21b6" text-anchor="middle">2024–2025</text>
+  <text x="425" y="85" font-family="'Courier New', Courier, monospace" font-size="9" fill="#5b21b6" text-anchor="middle">2025 → present</text>
+  <text x="610" y="85" font-family="'Courier New', Courier, monospace" font-size="9" fill="#5b21b6" text-anchor="middle">Next</text>
+
+  <!-- Divider -->
+  <rect x="20" y="105" width="660" height="1" fill="#3b0764"/>
+
+  <!-- Currently diving deep into: -->
+  <text x="30" y="130" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">Currently diving deep into:</text>
+
+  <!-- List items with bullet -->
+  <text x="40" y="155" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">● Distributed systems design patterns — CAP theorem, Raft consensus, sharding</text>
+  <text x="40" y="175" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">● SaaS multi‑tenancy and tenant isolation — row‑level security, schema‑per‑tenant</text>
+  <text x="40" y="195" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">● Agent‑native software architecture — MCP, tool‑use, orchestration</text>
+  <text x="40" y="215" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">● Rust — ownership model, async runtimes (Tokio), high‑performance backends</text>
+
+  <!-- Bottom accent line -->
+  <rect x="10" y="307" width="680" height="1.5" fill="url(#botline)"/>
+
+  <!-- Blinking cursor -->
+  <rect x="660" y="290" width="8" height="13" fill="#7c3aed" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

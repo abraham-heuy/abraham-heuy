@@ -24,52 +24,25 @@
 <img src="./assets/status.svg" width="700"/>
 </div>
 
----
+<br/>
 
-## ░ LANGUAGES
+<div align="center">
+<img src="./assets/languages.svg" width="700"/>
+</div>
 
-```
-  ╔══════════════════════════════════════════════════════════════╗
-  ║  TypeScript  ████████████████████░░░░  80%   daily driver  ║
-  ║  JavaScript  ███████████████████░░░░░  75%   legacy & web  ║
-  ║  Python      ████████████████░░░░░░░░  70%   AI / ML work  ║
-  ║  SQL         ██████████████████░░░░░░  65%   data layer    ║
-  ║  Rust        ████░░░░░░░░░░░░░░░░░░░░  15%   new focus     ║
-  ╚══════════════════════════════════════════════════════════════╝
-```
+<br/>
 
----
+<div align="center">
+<img src="./assets/techstack.svg" width="700"/>
+</div>
 
-## ░ TECH_STACK.CONFIG
+<br/>
 
-| Category | Technologies |
-|---|---|
-| **Languages** | TypeScript, Python, JavaScript, SQL, Rust (learning) |
-| **Frontend** | React, Next.js, Tailwind CSS |
-| **Backend** | Node.js, FastAPI, tRPC, Prisma, PostgreSQL, Redis |
-| **Infra** | Docker, Vercel, AWS (S3, EC2), GitHub Actions |
-| **AI / ML** | LangChain, HuggingFace Transformers, OpenAI API, RAG pipelines, AWS SageMaker |
-| **Security** | JWT, RBAC, tenant isolation, audit logging |
-| **Systems** | Tokio, Actix Web, gRPC, protobuf (Rust ecosystem) |
+<div align="center">
+<img src="./assets/learningpath.svg" width="700"/>
+</div>
 
----
-
-## ░ LEARNING PATH
-
-```
-  [Full-Stack]  ──→  [AI / ML]  ──→  [Dist. Sys + Security]  ──→  [Rust + Systems]
-   2022–2024         2024–2025          2025 → present               Next
-```
-
-**Currently diving deep into:**
-
-- Distributed systems design patterns — CAP theorem, Raft consensus, sharding
-- SaaS multi-tenancy and tenant isolation — row-level security, schema-per-tenant
-- Agent-native software architecture — MCP, tool-use, orchestration
-- Rust — ownership model, async runtimes (Tokio), high-performance backends
-
----
-
+<br/>
 <div align="center">
 <img src="./assets/philosophy.svg" width="700"/>
 </div>

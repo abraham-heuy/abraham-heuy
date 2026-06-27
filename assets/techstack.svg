@@ -1,0 +1,101 @@
+<svg width="700" height="340" viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="30%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="70%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="botline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="50%" stop-color="#5b21b6"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="rowhl" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rowodd" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="headerrow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5b21b6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5b21b6" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="340" fill="#0a0010"/>
+  <rect x="1" y="1" width="698" height="338" fill="none" stroke="#5b21b6" stroke-width="1.5"/>
+  <rect x="10" y="1" width="680" height="2" fill="url(#topline)"/>
+
+  <!-- Corner accents -->
+  <rect x="0" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="0" y="332" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="332" width="8" height="8" fill="#7c3aed"/>
+
+  <!-- Section label tab -->
+  <rect x="20" y="-1" width="200" height="18" fill="#7c3aed"/>
+  <text x="120" y="12" font-family="monospace" font-size="10" fill="#f0abfc" text-anchor="middle" letter-spacing="2">░ TECH_STACK.CONFIG</text>
+
+  <!-- Table header -->
+  <rect x="2" y="28" width="696" height="24" fill="url(#headerrow)"/>
+  <line x1="2" y1="28" x2="698" y2="28" stroke="#5b21b6" stroke-width="1"/>
+  <line x1="2" y1="52" x2="698" y2="52" stroke="#5b21b6" stroke-width="1"/>
+  <text x="20" y="44" font-family="'Courier New', Courier, monospace" font-size="11" fill="#a855f7" font-weight="bold" letter-spacing="1">CATEGORY</text>
+  <text x="190" y="44" font-family="'Courier New', Courier, monospace" font-size="11" fill="#a855f7" font-weight="bold" letter-spacing="1">TECHNOLOGIES</text>
+
+  <!-- Column divider -->
+  <line x1="175" y1="28" x2="175" y2="325" stroke="#3b0764" stroke-width="1" stroke-dasharray="3,4"/>
+
+  <!-- ROW 1 — Languages -->
+  <rect x="2" y="52" width="696" height="34" fill="url(#rowhl)"/>
+  <text x="20" y="74" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">Languages</text>
+  <text x="190" y="74" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">TypeScript, Python, JavaScript, SQL, Rust (learning)</text>
+  <line x1="2" y1="86" x2="698" y2="86" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 2 — Frontend -->
+  <rect x="2" y="86" width="696" height="34" fill="url(#rowodd)"/>
+  <text x="20" y="108" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">Frontend</text>
+  <text x="190" y="108" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">React, Next.js, Tailwind CSS</text>
+  <line x1="2" y1="120" x2="698" y2="120" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 3 — Backend -->
+  <rect x="2" y="120" width="696" height="34" fill="url(#rowhl)"/>
+  <text x="20" y="142" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">Backend</text>
+  <text x="190" y="142" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Node.js, FastAPI, tRPC, Prisma, PostgreSQL, Redis</text>
+  <line x1="2" y1="154" x2="698" y2="154" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 4 — Infra -->
+  <rect x="2" y="154" width="696" height="34" fill="url(#rowodd)"/>
+  <text x="20" y="176" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">Infra</text>
+  <text x="190" y="176" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Docker, Vercel, AWS (S3, EC2), GitHub Actions</text>
+  <line x1="2" y1="188" x2="698" y2="188" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 5 — AI / ML -->
+  <rect x="2" y="188" width="696" height="46" fill="url(#rowhl)"/>
+  <text x="20" y="210" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">AI / ML</text>
+  <text x="190" y="204" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">LangChain, HuggingFace Transformers, OpenAI API,</text>
+  <text x="190" y="222" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">RAG pipelines, AWS SageMaker</text>
+  <line x1="2" y1="234" x2="698" y2="234" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 6 — Security -->
+  <rect x="2" y="234" width="696" height="34" fill="url(#rowodd)"/>
+  <text x="20" y="256" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">Security</text>
+  <text x="190" y="256" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">JWT, RBAC, tenant isolation, audit logging</text>
+  <line x1="2" y1="268" x2="698" y2="268" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 7 — Systems -->
+  <rect x="2" y="268" width="696" height="34" fill="url(#rowhl)"/>
+  <text x="20" y="290" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">Systems</text>
+  <text x="190" y="290" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Tokio, Actix Web, gRPC, protobuf (Rust ecosystem)</text>
+  <line x1="2" y1="302" x2="698" y2="302" stroke="#5b21b6" stroke-width="1"/>
+
+  <!-- Footer note -->
+  <rect x="2" y="302" width="696" height="30" fill="#050010"/>
+  <text x="350" y="321" font-family="'Courier New', Courier, monospace" font-size="10" fill="#3b0764" text-anchor="middle" letter-spacing="1">// stack evolves — this snapshot reflects current primary tools</text>
+
+  <rect x="10" y="337" width="680" height="1.5" fill="url(#botline)"/>
+</svg>

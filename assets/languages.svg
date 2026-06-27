@@ -1,0 +1,116 @@
+<svg width="700" height="260" viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="30%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="70%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="botline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="50%" stop-color="#5b21b6"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5b21b6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="bar4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#f0abfc"/>
+    </linearGradient>
+    <linearGradient id="bar5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="260" fill="#0a0010"/>
+  <rect x="1" y="1" width="698" height="258" fill="none" stroke="#5b21b6" stroke-width="1.5"/>
+  <rect x="10" y="1" width="680" height="2" fill="url(#topline)"/>
+
+  <!-- Corner accents -->
+  <rect x="0" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="0" y="252" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="252" width="8" height="8" fill="#7c3aed"/>
+
+  <!-- Section label tab -->
+  <rect x="20" y="-1" width="130" height="18" fill="#7c3aed"/>
+  <text x="85" y="12" font-family="monospace" font-size="10" fill="#f0abfc" text-anchor="middle" letter-spacing="2">░ LANGUAGES</text>
+
+  <!-- Column headers -->
+  <text x="30" y="42" font-family="'Courier New', Courier, monospace" font-size="10" fill="#5b21b6" letter-spacing="1">LANGUAGE</text>
+  <text x="175" y="42" font-family="'Courier New', Courier, monospace" font-size="10" fill="#5b21b6" letter-spacing="1">PROFICIENCY</text>
+  <text x="530" y="42" font-family="'Courier New', Courier, monospace" font-size="10" fill="#5b21b6" letter-spacing="1">PCT    CONTEXT</text>
+  <line x1="15" y1="48" x2="685" y2="48" stroke="#3b0764" stroke-width="1"/>
+
+  <!-- ROW 1 — TypeScript 80% -->
+  <text x="30" y="72" font-family="'Courier New', Courier, monospace" font-size="13" fill="#f0abfc" font-weight="bold">TypeScript</text>
+  <!-- bar track -->
+  <rect x="175" y="60" width="340" height="12" fill="#0d0025" rx="1"/>
+  <!-- bar fill 80% = 272px -->
+  <rect x="175" y="60" width="272" height="12" fill="url(#bar1)" rx="1">
+    <animate attributeName="width" from="0" to="272" dur="1.2s" ease="ease-out" fill="freeze"/>
+  </rect>
+  <!-- shimmer tick -->
+  <rect x="441" y="60" width="2" height="12" fill="#fff" opacity="0.3"/>
+  <text x="530" y="72" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4">80%</text>
+  <text x="570" y="72" font-family="'Courier New', Courier, monospace" font-size="11" fill="#7c3aed">daily driver</text>
+
+  <!-- ROW 2 — JavaScript 75% -->
+  <text x="30" y="108" font-family="'Courier New', Courier, monospace" font-size="13" fill="#f0abfc" font-weight="bold">JavaScript</text>
+  <rect x="175" y="96" width="340" height="12" fill="#0d0025" rx="1"/>
+  <rect x="175" y="96" width="255" height="12" fill="url(#bar2)" rx="1">
+    <animate attributeName="width" from="0" to="255" dur="1.2s" ease="ease-out" fill="freeze"/>
+  </rect>
+  <rect x="424" y="96" width="2" height="12" fill="#fff" opacity="0.3"/>
+  <text x="530" y="108" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4">75%</text>
+  <text x="570" y="108" font-family="'Courier New', Courier, monospace" font-size="11" fill="#7c3aed">legacy &amp; web</text>
+
+  <!-- ROW 3 — Python 70% -->
+  <text x="30" y="144" font-family="'Courier New', Courier, monospace" font-size="13" fill="#f0abfc" font-weight="bold">Python</text>
+  <rect x="175" y="132" width="340" height="12" fill="#0d0025" rx="1"/>
+  <rect x="175" y="132" width="238" height="12" fill="url(#bar3)" rx="1">
+    <animate attributeName="width" from="0" to="238" dur="1.2s" ease="ease-out" fill="freeze"/>
+  </rect>
+  <rect x="407" y="132" width="2" height="12" fill="#fff" opacity="0.3"/>
+  <text x="530" y="144" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4">70%</text>
+  <text x="570" y="144" font-family="'Courier New', Courier, monospace" font-size="11" fill="#7c3aed">AI / ML work</text>
+
+  <!-- ROW 4 — SQL 65% -->
+  <text x="30" y="180" font-family="'Courier New', Courier, monospace" font-size="13" fill="#f0abfc" font-weight="bold">SQL</text>
+  <rect x="175" y="168" width="340" height="12" fill="#0d0025" rx="1"/>
+  <rect x="175" y="168" width="221" height="12" fill="url(#bar4)" rx="1">
+    <animate attributeName="width" from="0" to="221" dur="1.2s" ease="ease-out" fill="freeze"/>
+  </rect>
+  <rect x="390" y="168" width="2" height="12" fill="#fff" opacity="0.3"/>
+  <text x="530" y="180" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4">65%</text>
+  <text x="570" y="180" font-family="'Courier New', Courier, monospace" font-size="11" fill="#7c3aed">data layer</text>
+
+  <!-- ROW 5 — Rust 15% -->
+  <text x="30" y="216" font-family="'Courier New', Courier, monospace" font-size="13" fill="#f0abfc" font-weight="bold">Rust</text>
+  <rect x="175" y="204" width="340" height="12" fill="#0d0025" rx="1"/>
+  <rect x="175" y="204" width="51" height="12" fill="url(#bar5)" rx="1">
+    <animate attributeName="width" from="0" to="51" dur="1.2s" ease="ease-out" fill="freeze"/>
+  </rect>
+  <rect x="220" y="204" width="2" height="12" fill="#fff" opacity="0.3"/>
+  <text x="530" y="216" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4">15%</text>
+  <text x="570" y="216" font-family="'Courier New', Courier, monospace" font-size="11" fill="#7c3aed">new focus</text>
+
+  <!-- NEW FOCUS badge -->
+  <rect x="30" y="222" width="58" height="14" fill="#3b0764" rx="2"/>
+  <text x="59" y="233" font-family="'Courier New', Courier, monospace" font-size="9" fill="#a855f7" text-anchor="middle" letter-spacing="1">LEARNING</text>
+
+  <rect x="10" y="257" width="680" height="1.5" fill="url(#botline)"/>
+</svg>
