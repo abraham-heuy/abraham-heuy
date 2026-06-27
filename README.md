@@ -39,7 +39,7 @@
 <br/>
 
 <div align="center">
-<img src="./assets/learningpath.svg" width="700"/>
+<img src="./assets/learning.svg" width="700"/>
 </div>
 
 <br/>
