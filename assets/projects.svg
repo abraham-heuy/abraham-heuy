@@ -1,0 +1,162 @@
+<svg width="700" height="580" viewBox="0 0 700 580" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="30%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="70%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="botline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="50%" stop-color="#5b21b6"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="roweven" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rowodd" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="headerrow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5b21b6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5b21b6" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="580" fill="#0a0010"/>
+
+  <!-- Outer border -->
+  <rect x="1" y="1" width="698" height="578" fill="none" stroke="#5b21b6" stroke-width="1.5"/>
+
+  <!-- Top accent line -->
+  <rect x="10" y="1" width="680" height="2" fill="url(#topline)"/>
+
+  <!-- Corner accents -->
+  <rect x="0" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="0" y="572" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="572" width="8" height="8" fill="#7c3aed"/>
+
+  <!-- Section label tab -->
+  <rect x="20" y="-1" width="155" height="18" fill="#7c3aed"/>
+  <text x="97" y="12" font-family="monospace" font-size="10" fill="#f0abfc" text-anchor="middle" letter-spacing="2">░ PROJECTS.LOG</text>
+
+  <!-- Table header row -->
+  <rect x="2" y="28" width="696" height="26" fill="url(#headerrow)"/>
+  <line x1="2" y1="28" x2="698" y2="28" stroke="#5b21b6" stroke-width="1"/>
+  <line x1="2" y1="54" x2="698" y2="54" stroke="#5b21b6" stroke-width="1"/>
+
+  <text x="20" y="45" font-family="'Courier New', Courier, monospace" font-size="11" fill="#a855f7" font-weight="bold" letter-spacing="1">PROJECT</text>
+  <text x="175" y="45" font-family="'Courier New', Courier, monospace" font-size="11" fill="#a855f7" font-weight="bold" letter-spacing="1">DESCRIPTION</text>
+  <text x="550" y="45" font-family="'Courier New', Courier, monospace" font-size="11" fill="#a855f7" font-weight="bold" letter-spacing="1">STACK</text>
+
+  <!-- Column dividers -->
+  <line x1="168" y1="28" x2="168" y2="490" stroke="#3b0764" stroke-width="1" stroke-dasharray="3,4"/>
+  <line x1="544" y1="28" x2="544" y2="490" stroke="#3b0764" stroke-width="1" stroke-dasharray="3,4"/>
+
+  <!-- ROW 1 — DESIC -->
+  <rect x="2" y="54" width="696" height="56" fill="url(#roweven)"/>
+  <text x="20" y="74" font-family="'Courier New', Courier, monospace" font-size="12" fill="#f0abfc" font-weight="bold">DESIC</text>
+  <text x="175" y="68" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Activity management platform for a</text>
+  <text x="175" y="83" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">university incubation centre. UI</text>
+  <text x="175" y="98" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">components and business logic layer.</text>
+  <text x="554" y="74" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">React</text>
+  <text x="554" y="88" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">Node.js</text>
+  <text x="554" y="102" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">MySQL</text>
+  <line x1="2" y1="110" x2="698" y2="110" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 2 — Avital -->
+  <rect x="2" y="110" width="696" height="44" fill="url(#rowodd)"/>
+  <text x="20" y="130" font-family="'Courier New', Courier, monospace" font-size="12" fill="#f0abfc" font-weight="bold">Avital</text>
+  <text x="175" y="124" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Student tech consultation site with</text>
+  <text x="175" y="139" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">dark neon UI. Responsive + real-time.</text>
+  <text x="554" y="130" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">React · TypeScript</text>
+  <line x1="2" y1="154" x2="698" y2="154" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 3 — e-Tala -->
+  <rect x="2" y="154" width="696" height="56" fill="url(#roweven)"/>
+  <text x="20" y="174" font-family="'Courier New', Courier, monospace" font-size="12" fill="#f0abfc" font-weight="bold">e-Tala</text>
+  <rect x="20" y="180" width="44" height="12" fill="#06b6d4" opacity="0.15"/>
+  <text x="22" y="190" font-family="'Courier New', Courier, monospace" font-size="9" fill="#06b6d4">ONGOING</text>
+  <text x="175" y="168" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Full-stack e-commerce platform with</text>
+  <text x="175" y="183" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Stripe payments and inventory</text>
+  <text x="175" y="198" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">management.</text>
+  <text x="554" y="174" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">Next.js</text>
+  <text x="554" y="188" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">Stripe</text>
+  <text x="554" y="202" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">PostgreSQL</text>
+  <line x1="2" y1="210" x2="698" y2="210" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 4 — HealthBot -->
+  <rect x="2" y="210" width="696" height="44" fill="url(#rowodd)"/>
+  <text x="20" y="230" font-family="'Courier New', Courier, monospace" font-size="12" fill="#f0abfc" font-weight="bold">HealthBot</text>
+  <text x="175" y="224" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">LLM-backed triage tool using LangChain</text>
+  <text x="175" y="239" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">with RAG over medical guidelines.</text>
+  <text x="554" y="230" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">Python · LangChain</text>
+  <text x="554" y="244" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">FastAPI</text>
+  <line x1="2" y1="254" x2="698" y2="254" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 5 — SmartSeason -->
+  <rect x="2" y="254" width="696" height="44" fill="url(#roweven)"/>
+  <text x="20" y="274" font-family="'Courier New', Courier, monospace" font-size="12" fill="#f0abfc" font-weight="bold">SmartSeason</text>
+  <text x="175" y="268" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Agricultural resource optimisation and</text>
+  <text x="175" y="283" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">planning side project.</text>
+  <text x="554" y="274" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">React · Node.js</text>
+  <text x="554" y="288" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">PostgreSQL</text>
+  <line x1="2" y1="298" x2="698" y2="298" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 6 — hiWorld -->
+  <rect x="2" y="298" width="696" height="44" fill="url(#rowodd)"/>
+  <text x="20" y="318" font-family="'Courier New', Courier, monospace" font-size="12" fill="#f0abfc" font-weight="bold">hiWorld</text>
+  <text x="175" y="312" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Legacy social platform (MySpace tribute)</text>
+  <text x="175" y="327" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">exploring retro web architecture.</text>
+  <text x="554" y="318" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">React · TypeScript</text>
+  <text x="554" y="332" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">Node.js</text>
+  <line x1="2" y1="342" x2="698" y2="342" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ROW 7 — DailyNoise -->
+  <rect x="2" y="342" width="696" height="44" fill="url(#roweven)"/>
+  <text x="20" y="362" font-family="'Courier New', Courier, monospace" font-size="12" fill="#f0abfc" font-weight="bold">DailyNoise</text>
+  <text x="175" y="356" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Encryption practice tool — basic ciphers</text>
+  <text x="175" y="371" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">and hashing implementations.</text>
+  <text x="554" y="362" font-family="'Courier New', Courier, monospace" font-size="10" fill="#7c3aed">TypeScript · Node.js</text>
+  <line x1="2" y1="386" x2="698" y2="386" stroke="#5b21b6" stroke-width="1"/>
+
+  <!-- Continuous / seeking contributions section -->
+  <rect x="2" y="386" width="696" height="22" fill="#0d0025"/>
+  <text x="20" y="401" font-family="'Courier New', Courier, monospace" font-size="10" fill="#5b21b6" letter-spacing="2">CONTINUOUS PROJECTS — SEEKING CONTRIBUTIONS</text>
+
+  <line x1="2" y1="408" x2="698" y2="408" stroke="#3b0764" stroke-width="1"/>
+
+  <!-- 2Wajibike -->
+  <rect x="2" y="408" width="696" height="38" fill="url(#rowodd)"/>
+  <text x="20" y="425" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">2Wajibike</text>
+  <text x="175" y="419" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Prediction algorithms and leader scoring</text>
+  <text x="175" y="434" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">ahead of the 2027 Kenyan elections.</text>
+  <line x1="2" y1="446" x2="698" y2="446" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- e-Tala scaling -->
+  <rect x="2" y="446" width="696" height="38" fill="url(#roweven)"/>
+  <text x="20" y="463" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">e-Tala (scaling)</text>
+  <text x="175" y="457" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">Ongoing feature development and</text>
+  <text x="175" y="472" font-family="'Courier New', Courier, monospace" font-size="11" fill="#c4b5fd">scaling improvements.</text>
+  <line x1="2" y1="484" x2="698" y2="484" stroke="#5b21b6" stroke-width="1"/>
+
+  <!-- Private note -->
+  <rect x="2" y="484" width="696" height="88" fill="#050010"/>
+  <text x="350" y="508" font-family="'Courier New', Courier, monospace" font-size="11" fill="#3b0764" text-anchor="middle">// ─────────────────────────────────────────────────</text>
+  <text x="350" y="526" font-family="'Courier New', Courier, monospace" font-size="11" fill="#7c3aed" text-anchor="middle">Several active projects are connected to organisations</text>
+  <text x="350" y="542" font-family="'Courier New', Courier, monospace" font-size="11" fill="#7c3aed" text-anchor="middle">and private individuals and are not displayed publicly.</text>
+  <text x="350" y="560" font-family="'Courier New', Courier, monospace" font-size="11" fill="#3b0764" text-anchor="middle">// ─────────────────────────────────────────────────</text>
+
+  <!-- Bottom accent line -->
+  <rect x="10" y="577" width="680" height="1.5" fill="url(#botline)"/>
+
+  <!-- Blinking cursor -->
+  <rect x="660" y="558" width="8" height="13" fill="#7c3aed" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

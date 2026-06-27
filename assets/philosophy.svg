@@ -1,0 +1,96 @@
+<svg width="700" height="370" viewBox="0 0 700 370" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="30%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="70%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="botline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="50%" stop-color="#5b21b6"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="rowhl" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="370" fill="#0a0010"/>
+
+  <!-- Outer border -->
+  <rect x="1" y="1" width="698" height="368" fill="none" stroke="#5b21b6" stroke-width="1.5"/>
+
+  <!-- Top accent line -->
+  <rect x="10" y="1" width="680" height="2" fill="url(#topline)"/>
+
+  <!-- Corner accents -->
+  <rect x="0" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="0" y="362" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="362" width="8" height="8" fill="#7c3aed"/>
+
+  <!-- Section label tab -->
+  <rect x="20" y="-1" width="195" height="18" fill="#7c3aed"/>
+  <text x="117" y="12" font-family="monospace" font-size="10" fill="#f0abfc" text-anchor="middle" letter-spacing="2">░ TEAM_PHILOSOPHY.SH</text>
+
+  <!-- Vertical divider -->
+  <line x1="185" y1="30" x2="185" y2="345" stroke="#3b0764" stroke-width="1" stroke-dasharray="3,4"/>
+
+  <!-- Row highlights -->
+  <rect x="2" y="32" width="696" height="50" fill="url(#rowhl)"/>
+  <rect x="2" y="122" width="696" height="50" fill="url(#rowhl)"/>
+  <rect x="2" y="212" width="696" height="50" fill="url(#rowhl)"/>
+  <rect x="2" y="302" width="696" height="42" fill="url(#rowhl)"/>
+
+  <!-- CODE REVIEW -->
+  <text x="40" y="52" font-family="'Courier New', Courier, monospace" font-size="12" fill="#a855f7" font-weight="bold">[CODE REVIEW]</text>
+  <text x="200" y="45" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Advocate for clean, readable code with meaningful</text>
+  <text x="200" y="63" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">comments and thorough testing. PRs tell a story.</text>
+
+  <line x1="30" y1="88" x2="670" y2="88" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- COLLABORATION -->
+  <text x="40" y="108" font-family="'Courier New', Courier, monospace" font-size="12" fill="#a855f7" font-weight="bold">[COLLABORATION]</text>
+  <text x="200" y="101" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Strong believer in pair programming, whiteboarding,</text>
+  <text x="200" y="119" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">and collective ownership of codebases.</text>
+
+  <line x1="30" y1="142" x2="670" y2="142" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- MENTORSHIP -->
+  <text x="40" y="162" font-family="'Courier New', Courier, monospace" font-size="12" fill="#a855f7" font-weight="bold">[MENTORSHIP]</text>
+  <text x="200" y="155" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Always happy to help others level up — juniors,</text>
+  <text x="200" y="173" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">knowledge-sharing, skill-building.</text>
+
+  <line x1="30" y1="196" x2="670" y2="196" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- DOCUMENTATION -->
+  <text x="40" y="216" font-family="'Courier New', Courier, monospace" font-size="12" fill="#a855f7" font-weight="bold">[DOCUMENTATION]</text>
+  <text x="200" y="209" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Code is read more than it is written. Clear READMEs,</text>
+  <text x="200" y="227" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">API docs, and architecture diagrams — non-negotiable.</text>
+
+  <line x1="30" y1="250" x2="670" y2="250" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- OPEN SOURCE -->
+  <text x="40" y="270" font-family="'Courier New', Courier, monospace" font-size="12" fill="#a855f7" font-weight="bold">[OPEN SOURCE]</text>
+  <text x="200" y="263" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Actively looking to contribute to Rust and distributed</text>
+  <text x="200" y="281" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">systems projects. I bring a collaborative mindset.</text>
+
+  <line x1="30" y1="304" x2="670" y2="304" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- LOOKING FOR -->
+  <text x="40" y="322" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">[LOOKING FOR]</text>
+  <text x="200" y="315" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Teams valuing clean architecture, open communication,</text>
+  <text x="200" y="333" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">continuous learning, and products solving real problems.</text>
+
+  <!-- Bottom accent line -->
+  <rect x="10" y="367" width="680" height="1.5" fill="url(#botline)"/>
+
+  <!-- Blinking cursor -->
+  <rect x="660" y="350" width="8" height="13" fill="#7c3aed" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

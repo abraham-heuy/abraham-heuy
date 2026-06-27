@@ -1,0 +1,77 @@
+<svg width="700" height="210" viewBox="0 0 700 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="30%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="70%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="botline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="50%" stop-color="#5b21b6"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="210" fill="#0a0010"/>
+
+  <!-- Outer border -->
+  <rect x="1" y="1" width="698" height="208" fill="none" stroke="#5b21b6" stroke-width="1.5"/>
+
+  <!-- Top accent line -->
+  <rect x="10" y="1" width="680" height="2" fill="url(#topline)"/>
+
+  <!-- Corner accents -->
+  <rect x="0" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="0" y="202" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="202" width="8" height="8" fill="#7c3aed"/>
+
+  <!-- Section label tab -->
+  <rect x="20" y="-1" width="120" height="18" fill="#7c3aed"/>
+  <text x="80" y="12" font-family="monospace" font-size="10" fill="#f0abfc" text-anchor="middle" letter-spacing="2">░ ABOUT.SYS</text>
+
+  <!-- Scanline overlay (subtle) -->
+  <rect width="700" height="210" fill="url(#scanlines)" opacity="0.04"/>
+
+  <!-- Content rows -->
+  <!-- NAME -->
+  <text x="40" y="55" font-family="'Courier New', Courier, monospace" font-size="13" fill="#7c3aed" letter-spacing="1">NAME</text>
+  <text x="130" y="55" font-family="'Courier New', Courier, monospace" font-size="13" fill="#5b21b6">:</text>
+  <text x="150" y="55" font-family="'Courier New', Courier, monospace" font-size="13" fill="#c4b5fd">Abraham Kioko</text>
+
+  <!-- ROLE -->
+  <text x="40" y="80" font-family="'Courier New', Courier, monospace" font-size="13" fill="#7c3aed" letter-spacing="1">ROLE</text>
+  <text x="130" y="80" font-family="'Courier New', Courier, monospace" font-size="13" fill="#5b21b6">:</text>
+  <text x="150" y="80" font-family="'Courier New', Courier, monospace" font-size="13" fill="#c4b5fd">Software Engineer &amp; AI Builder</text>
+
+  <!-- LOCATION -->
+  <text x="40" y="105" font-family="'Courier New', Courier, monospace" font-size="13" fill="#7c3aed" letter-spacing="1">LOCATION</text>
+  <text x="130" y="105" font-family="'Courier New', Courier, monospace" font-size="13" fill="#5b21b6">:</text>
+  <text x="150" y="105" font-family="'Courier New', Courier, monospace" font-size="13" fill="#c4b5fd">Nairobi, Kenya</text>
+
+  <!-- STATUS -->
+  <text x="40" y="130" font-family="'Courier New', Courier, monospace" font-size="13" fill="#7c3aed" letter-spacing="1">STATUS</text>
+  <text x="130" y="130" font-family="'Courier New', Courier, monospace" font-size="13" fill="#5b21b6">:</text>
+  <rect x="150" y="118" width="12" height="12" fill="#06b6d4" opacity="0.9"/>
+  <text x="168" y="130" font-family="'Courier New', Courier, monospace" font-size="13" fill="#06b6d4">[OPEN] — Available for work / freelance</text>
+
+  <!-- FOCUS -->
+  <text x="40" y="155" font-family="'Courier New', Courier, monospace" font-size="13" fill="#7c3aed" letter-spacing="1">FOCUS</text>
+  <text x="130" y="155" font-family="'Courier New', Courier, monospace" font-size="13" fill="#5b21b6">:</text>
+  <text x="150" y="155" font-family="'Courier New', Courier, monospace" font-size="13" fill="#c4b5fd">Distributed systems · clean architecture · Rust</text>
+
+  <!-- PRONOUNS -->
+  <text x="40" y="180" font-family="'Courier New', Courier, monospace" font-size="13" fill="#7c3aed" letter-spacing="1">PRONOUNS</text>
+  <text x="130" y="180" font-family="'Courier New', Courier, monospace" font-size="13" fill="#5b21b6">:</text>
+  <text x="150" y="180" font-family="'Courier New', Courier, monospace" font-size="13" fill="#c4b5fd">He / Him</text>
+
+  <!-- Bottom accent line -->
+  <rect x="10" y="207" width="680" height="1.5" fill="url(#botline)"/>
+</svg>

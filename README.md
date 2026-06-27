@@ -1,6 +1,6 @@
 <!-- ============================================================
      ABRAHAM KIOKO — GitHub Profile README
-     Retro theme  aesthetic
+     Retro terminal aesthetic
      Username: abraham-heuy
      ============================================================ -->
 
@@ -12,53 +12,17 @@
 
 </div>
 
----
+<br/>
 
-## ░ ABOUT.EXE
+<div align="center">
+<img src="./assets/about.svg" width="700"/>
+</div>
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  NAME      : Abraham Kioko                                      │
-│  ROLE      : Software Engineer & AI Builder                     │
-│  LOCATION  : Nairobi, Kenya                                     │
-│  STATUS    : [OPEN] — Available for work / freelance            │
-│  FOCUS     : Distributed systems · clean architecture · Rust    │
-│  PRONOUNS  : He / Him                                           │
-└─────────────────────────────────────────────────────────────────┘
-```
+<br/>
 
----
-
-## ░ CURRENT_STATUS.SYS
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│ [WORKING ON] Distributed systems — exploring consensus          │
-│ protocols (Raft) and building scalable,                         │
-│ fault-tolerant services.                                        │
-│                                                                 │
-│ [LEARNING] Rust — ownership, lifetimes, async runtimes          │
-│ (Tokio), and systems programming.                               │
-│                                                                 │
-│ [COLLABORATE] Open-source Rust projects — distributed           │ 
-│ databases, message brokers, agent-orchestration.                │
-│                                                                 │
-│ [HELP WANTED] Advanced Rust patterns — zero-copy, Pin,          │
-│ custom async executors.                                         │
-│                                                                 │
-│ [ASK ME ABOUT] Clean architecture, RBAC trees, state            │
-│ machines, or multi-tenant SaaS isolation.                       │
-│                                                                 │
-│ [REACH ME] email(abrahamkisuaofficial2@gmail.com).              │
-│                                                                 │
-│ [FUN FACT] I love retro themes so much, you'd think             │
-│ I'd be a SpaceHey famous. My follower                           │
-│ count, though? Let's just say it's a                            │
-│ single-digit number, and I know all of them.                    │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+<img src="./assets/status.svg" width="700"/>
+</div>
 
 ---
 
@@ -106,58 +70,15 @@
 
 ---
 
-## ░ TEAM_PHILOSOPHY.SH
+<div align="center">
+<img src="./assets/philosophy.svg" width="700"/>
+</div>
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                         │
-│  [CODE REVIEW]    Advocate for clean, readable code with meaningful     │
-│                   comments and thorough testing. PRs should tell        │
-│                   a story.                                              │
-│                                                                         │
-│  [COLLABORATION]  Strong believer in pair programming, whiteboarding,   │
-│                   and collective ownership of codebases.                │
-│                                                                         │
-│  [MENTORSHIP]     Always happy to help others level up — juniors,       │
-│                   knowledge-sharing, skill-building.                    │
-│                                                                         │
-│  [DOCUMENTATION]  Code is read more than it is written. Clear READMEs, │
-│                   API docs, and architecture diagrams are               │
-│                   non-negotiable.                                       │
-│                                                                         │
-│  [OPEN SOURCE]    Actively looking to contribute to Rust and            │
-│                   distributed systems projects.                         │
-│                                                                         │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+<br/>
 
-**Looking for teams that value:**
-
-- Clean architecture and technical excellence
-- Open communication and psychological safety
-- Continuous learning and knowledge sharing
-- Building products that actually solve real problems
-
----
-
-## ░ PROJECTS.LOG
-
-| Project | Description | Stack |
-|---|---|---|
-| **DESIC** | Activity management platform for a university incubation centre. Contributed to UI components and business logic layer. | React · Node.js · MySQL |
-| **Avital** | Student tech consultation site with dark neon UI. Responsive forms and real-time chat. | React · TypeScript |
-| **e-Tala** | Full-stack e-commerce platform with Stripe payments and inventory management. Ongoing. | Next.js · Stripe · PostgreSQL |
-| **HealthBot** | LLM-backed triage tool using LangChain with RAG over medical guidelines. | Python · LangChain · FastAPI |
-| **SmartSeason** | Agricultural resource optimisation and planning side project. | React · Node.js · PostgreSQL |
-| **hiWorld** | Legacy social platform (MySpace tribute) built from scratch to explore retro web architecture. | React · TypeScript · Node.js |
-| **DailyNoise** | Encryption practice tool — basic ciphers and hashing implementations. | TypeScript · Node.js |
-
-**Continuous projects — seeking contributions:**
-
-- **2Wajibike** — prediction algorithms and scoring for leader tracking ahead of the 2027 elections
-- **e-Tala** — ongoing feature development and scaling improvements
-
-> Several active projects are connected to organisations and private individuals and are not displayed publicly on this profile.
+<div align="center">
+<img src="./assets/projects.svg" width="700"/>
+</div>
 
 ---
 
@@ -184,7 +105,7 @@
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-abraham--kioko.vercel.app-7c3aed?style=for-the-badge&logo=vercel&logoColor=white)](https://abraham-kioko.vercel.app)
-[![Email](https://img.shields.io/badge/Email-Reach_Out-06b6d4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abrahamkisuaofficial2@email.com)
+[![Email](https://img.shields.io/badge/Email-Reach_Out-06b6d4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abrahamkisuaofficial2@gmail.com)
 
 </div>
 

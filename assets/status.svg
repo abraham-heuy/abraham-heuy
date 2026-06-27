@@ -1,0 +1,101 @@
+<svg width="700" height="380" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="30%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="70%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="botline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="50%" stop-color="#5b21b6"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <linearGradient id="rowhl" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="380" fill="#0a0010"/>
+
+  <!-- Outer border -->
+  <rect x="1" y="1" width="698" height="378" fill="none" stroke="#5b21b6" stroke-width="1.5"/>
+
+  <!-- Top accent line -->
+  <rect x="10" y="1" width="680" height="2" fill="url(#topline)"/>
+
+  <!-- Corner accents -->
+  <rect x="0" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="0" width="8" height="8" fill="#7c3aed"/>
+  <rect x="0" y="372" width="8" height="8" fill="#7c3aed"/>
+  <rect x="692" y="372" width="8" height="8" fill="#7c3aed"/>
+
+  <!-- Section label tab -->
+  <rect x="20" y="-1" width="170" height="18" fill="#7c3aed"/>
+  <text x="105" y="12" font-family="monospace" font-size="10" fill="#f0abfc" text-anchor="middle" letter-spacing="2">░ CURRENT_STATUS.SYS</text>
+
+  <!-- Row highlight strips (alternating subtle glow) -->
+  <rect x="2" y="40" width="696" height="44" fill="url(#rowhl)"/>
+  <rect x="2" y="128" width="696" height="44" fill="url(#rowhl)"/>
+  <rect x="2" y="216" width="696" height="44" fill="url(#rowhl)"/>
+  <rect x="2" y="304" width="696" height="44" fill="url(#rowhl)"/>
+
+  <!-- Vertical divider between labels and content -->
+  <line x1="185" y1="30" x2="185" y2="355" stroke="#3b0764" stroke-width="1" stroke-dasharray="3,4"/>
+
+  <!-- WORKING ON -->
+  <text x="40" y="62" font-family="'Courier New', Courier, monospace" font-size="12" fill="#a855f7" font-weight="bold">[WORKING ON]</text>
+  <text x="200" y="55" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Distributed systems — exploring Raft consensus</text>
+  <text x="200" y="73" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">and building scalable, fault-tolerant services.</text>
+
+  <!-- Separator -->
+  <line x1="30" y1="96" x2="670" y2="96" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- LEARNING -->
+  <text x="40" y="118" font-family="'Courier New', Courier, monospace" font-size="12" fill="#a855f7" font-weight="bold">[LEARNING]</text>
+  <text x="200" y="111" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Rust — ownership, lifetimes, async runtimes</text>
+  <text x="200" y="129" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">(Tokio), and systems programming.</text>
+
+  <!-- Separator -->
+  <line x1="30" y1="152" x2="670" y2="152" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- COLLABORATE -->
+  <text x="40" y="174" font-family="'Courier New', Courier, monospace" font-size="12" fill="#a855f7" font-weight="bold">[COLLABORATE]</text>
+  <text x="200" y="167" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Open-source Rust — distributed databases,</text>
+  <text x="200" y="185" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">message brokers, agent-orchestration.</text>
+
+  <!-- Separator -->
+  <line x1="30" y1="208" x2="670" y2="208" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- HELP WANTED -->
+  <text x="40" y="230" font-family="'Courier New', Courier, monospace" font-size="12" fill="#a855f7" font-weight="bold">[HELP WANTED]</text>
+  <text x="200" y="223" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Advanced Rust patterns — zero-copy, Pin,</text>
+  <text x="200" y="241" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">custom async executors.</text>
+
+  <!-- Separator -->
+  <line x1="30" y1="264" x2="670" y2="264" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- ASK ME ABOUT -->
+  <text x="40" y="286" font-family="'Courier New', Courier, monospace" font-size="12" fill="#a855f7" font-weight="bold">[ASK ME ABOUT]</text>
+  <text x="200" y="279" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">Clean architecture, RBAC trees, state machines,</text>
+  <text x="200" y="297" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">or multi-tenant SaaS isolation.</text>
+
+  <!-- Separator -->
+  <line x1="30" y1="320" x2="670" y2="320" stroke="#1e0040" stroke-width="1"/>
+
+  <!-- FUN FACT -->
+  <text x="40" y="342" font-family="'Courier New', Courier, monospace" font-size="12" fill="#06b6d4" font-weight="bold">[FUN FACT]</text>
+  <text x="200" y="335" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">I love retro themes so much you'd think I'd be</text>
+  <text x="200" y="353" font-family="'Courier New', Courier, monospace" font-size="12" fill="#c4b5fd">SpaceHey famous. My follower count disagrees.</text>
+
+  <!-- Bottom accent line -->
+  <rect x="10" y="377" width="680" height="1.5" fill="url(#botline)"/>
+
+  <!-- Blinking cursor at bottom right -->
+  <rect x="660" y="360" width="8" height="13" fill="#7c3aed" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
