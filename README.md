@@ -46,7 +46,8 @@ AI-powered support assistant with retrieval, memory, and tool calling.
 Automation platform for startup incubation and innovation management.
 
 ### git-helper
-Personal cli tool that helps me with git commands - works with git to streamline my work and help me remember commands and operations for versioning.
+ Personal cli tool that helps me with git commands - works with git to streamline my work and help me remember commands and operations for  versioning.
+ 
 ---
 
 ## Writing About
