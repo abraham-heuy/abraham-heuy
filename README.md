@@ -2,7 +2,7 @@
 
 Software Engineer(SWE) building engineering tools, AI integrations, and backend systems that solve real operational problems.
 
-I'm interested in platform engineering, developer tooling, and enterprise software. My long-term goal is to become a **Forward Deployed Engineer (FDE)**, working with customers,designing and delivering software that bridges customer problems with scalable engineering solutions.
+I'm interested in platform engineering, developer tooling, and enterprise software. My long-term goal is to become a **Forward Deployed Engineer (FDE)**, working with customers,designing and delivering software that bridges their problems with scalable engineering solutions.
 
 ---
 
