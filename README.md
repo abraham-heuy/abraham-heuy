@@ -1,93 +1,79 @@
-<!-- ============================================================
-     ABRAHAM KIOKO — GitHub Profile README
-     Retro terminal aesthetic
-     Username: abraham-heuy
-     ============================================================ -->
+# Abraham Kioko
 
-<div align="center">
+Software Engineer(SWE) building engineering tools, AI integrations, and backend systems that solve real operational problems.
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=7c3aed&height=200&section=header&text=ABRAHAM%20KIOKO&fontSize=60&fontColor=f0abfc&animation=fadeIn&fontAlignY=55&desc=Software%20Architect%20%7C%20AI%20Engineer%20%7C%20Project%20Manager%20%7C%20Scrum%20Master%20%7C%20Nairobi%2C%20KE&descColor=06b6d4&descAlignY=75&descSize=16" width="100%"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=Full-Stack+%E2%80%A2+AI+%2F+ML+%E2%80%A2+Distributed+Systems;Rust+%7C+Secure+Systems+%7C+Systems+Programming;Open+to+collaboration)](https://github.com/abraham-heuy)
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="./assets/about.svg" width="700"/>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="./assets/status.svg" width="700"/>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="./assets/languages.svg" width="700"/>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="./assets/techstack.svg" width="700"/>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="./assets/learning.svg" width="700"/>
-</div>
-
-<br/>
-<div align="center">
-<img src="./assets/philosophy.svg" width="700"/>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="./assets/projects.svg" width="700"/>
-</div>
+I'm interested in platform engineering, developer tooling, and enterprise software. My long-term goal is to become a **Forward Deployed Engineer (FDE)**, working with customers,designing and delivering software that bridges customer problems with scalable engineering solutions.
 
 ---
 
-## ░ GITHUB_STATS.SYS
+## Engineering Toolkit
 
-<div align="center">
+A growing collection of reusable engineering services, AI infrastructure, and developer tools built to solve recurring software engineering problems. Each service is designed to be production-ready, documented, and reusable across future applications.
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=abraham-heuy&show_icons=true&theme=radical&bg_color=0a0010&title_color=a855f7&icon_color=06b6d4&text_color=c4b5fd&border_color=5b21b6&hide_border=false&count_private=true" />
+**Current roadmap**
 
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abraham-heuy&layout=compact&theme=radical&bg_color=0a0010&title_color=a855f7&text_color=c4b5fd&border_color=5b21b6" />
+- Engineering Tools Registry *(coming soon)*
+- File Upload Service
+- Authentication & Identity Service
+- Notification Service
+- AI Gateway
+- Workflow Engine
+- Audit Trail Service
+- API Gateway
 
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=abraham-heuy&theme=radical&background=0a0010&border=5b21b6&ring=a855f7&fire=f0abfc&currStreakLabel=06b6d4&sideLabels=c4b5fd&dates=5b21b6)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## ░ CONNECT.SH
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-abraham--kioko.vercel.app-7c3aed?style=for-the-badge&logo=vercel&logoColor=white)](https://abraham-kioko.vercel.app)
-[![Email](https://img.shields.io/badge/Email-Reach_Out-06b6d4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abrahamkisuaofficial2@gmail.com)
-
-</div>
+> The Engineering Tools Registry will serve as a central place to explore and use these services as they are completed.
 
 ---
 
-<div align="center">
+## Featured Projects
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7c3aed&height=100&section=footer&fontColor=f0abfc&fontSize=13&text=Best%20viewed%20at%20800x600%20resolution&descColor=5b21b6" width="100%"/>
+### Engineering Tools Registry *(Coming Soon)*
+A growing collection of reusable engineering services and AI infrastructure designed to solve recurring software engineering problems.
 
-![Visitor Count](https://komarev.com/ghpvc/?username=abraham-heuy&style=flat-square&color=7c3aed&label=VISITORS)
+### Dispatch
+Multi-agent AI research platform for orchestrating specialized AI agents.
 
-</div>
+### Document Extraction Pipeline
+Vendor-agnostic document intelligence pipeline for structured data extraction.
+
+### Loadwright
+Container-aware load balancer and autoscaler built while exploring distributed systems.
+
+### Customer Support Agent
+AI-powered support assistant with retrieval, memory, and tool calling.
+
+### DESIC
+Automation platform for startup incubation and innovation management.
+
+### git-helper
+Personal cli tool that helps me with git commands - works with git to streamline my work and help me remember commands and operations for versioning.
+---
+
+## Writing About
+
+- System Design
+- AI Reliability
+- Customer Discovery
+- Developer Experience
+- Engineering Tools
+- Distributed Systems
+
+---
+
+## Current Interests
+
+- Platform Engineering
+- Enterprise Software
+- AI Workflows
+- Distributed Architectures
+- Developer Infrastructure
+
+---
+
+## Connect
+
+**Profile**  
+https://abraham-kioko.vercel.app
+
+**Email**  
+mailto:abrahamkisuaofficial2@gmail.com
