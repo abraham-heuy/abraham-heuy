@@ -12,7 +12,7 @@ A growing collection of reusable engineering services, AI infrastructure, and de
 
 **Current roadmap**
 
-- Engineering Tools Registry *(coming soon)*
+- Engineering Tools Registry 
 - File Upload Service
 - Authentication & Identity Service
 - Notification Service
@@ -29,6 +29,9 @@ A growing collection of reusable engineering services, AI infrastructure, and de
 
 ### Engineering Tools Registry *(Coming Soon)*
 A growing collection of reusable engineering services and AI infrastructure designed to solve recurring software engineering problems.
+
+### Aegis
+An enterprise-grade, fully air-gapped AI orchestrator built for zero-egress environments. Implements strict Policy Enforcement Points (PEP), department-driven RBAC, dynamic ReAct tool orchestration, and secure local LLM inference, designed specifically for high-compliance sectors like healthcare and government.
 
 ### Dispatch
 Multi-agent AI research platform for orchestrating specialized AI agents.
