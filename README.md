@@ -27,7 +27,7 @@ A growing collection of reusable engineering services, AI infrastructure, and de
 
 ## Featured Projects
 
-### Engineering Tools Registry *(Coming Soon)*
+### Engineering Tools Registry 
 A growing collection of reusable engineering services and AI infrastructure designed to solve recurring software engineering problems.
 
 ### Aegis
